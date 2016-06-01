@@ -14,5 +14,5 @@
 
 
 def solution(a, b)
-  "#{a}#{b}#{a}"
+  a.length > b.length ? a + b + a : b + a + b
 end
