@@ -10,11 +10,9 @@
 # end
 
 
-Solution
+# Solution
 
 def say_hello(name, city, state)
   # Your Code Here
-  names = name.join(" ")
-  names.to_s
-  "Hello, #{names}! Welcome to #{city}, #{state}!"
+  "Hello, #{name.join(" ")}! Welcome to #{city}, #{state}!"
 end
